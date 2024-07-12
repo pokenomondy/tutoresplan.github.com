@@ -109,9 +109,9 @@ $S:7}
 A.bX6.prototype={
 $4(d,e,f,g){var x,w,v=e.a,u=f.e,t=this.a,s=u.a
 t.d=s
-B.b2("nombre del tutor "+s)
+B.b1("nombre del tutor "+s)
 s=J.R(v)
-B.b2("las solicitudes son "+s.gt(v))
+B.b1("las solicitudes son "+s.gt(v))
 x=B.b([],y.e)
 w=t.a.e
 if(w==="DISPONIBLE"){u=s.ke(v,new A.bX3(t,u.w))
@@ -166,4 +166,4 @@ B.qU(b.typeUniverse,JSON.parse('{"DA":{"P":[],"e":[]},"a3T":{"P":[],"e":[]},"AR"
 var y=(function rtii(){var x=B.au
 return{C:x("w<el>"),g:x("w<kh>"),e:x("w<hG>"),p:x("w<e>"),t:x("E<hG>"),w:x("lU"),P:x("bY"),l:x("h8"),j:x("i_"),L:x("qP?"),H:x("~")}})();(function constants(){E.aiX=new B.a2(20,20,0,20)})()};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_27",e:"endPart",h:b})})($__dart_deferred_initializers__,"XD3zLn/QtpVUQPBCMD5dvl2rtqw=");
+a.eventLog.push({p:"main.dart.js_27",e:"endPart",h:b})})($__dart_deferred_initializers__,"8WE7Y0yuHrWcQMDAY8CI1Od3iho=");

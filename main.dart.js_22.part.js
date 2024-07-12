@@ -687,7 +687,7 @@ if((u.d.b&4)===0){w=u.c
 w.toString
 v=u.e.lZ(w,"ADMIN","")
 u.d.hj(0,v)}},
-p(){A.b2("calendario se est\xe1 cerrando")
+p(){A.b1("calendario se est\xe1 cerrando")
 var w=this.d
 w===$&&A.a()
 if((w.b&1)!==0)w.aM(0)
@@ -743,7 +743,7 @@ return new A.Z(D.ajd,A.ae(A.b([w,A.c0(A.B(e,t,t,t,t,t,A.aa(t,t,u,t,t,t,t,t,"Popp
 B.AM.prototype={
 W(){return new B.ahd(C.l)}}
 B.ahd.prototype={
-p(){A.b2("Contabilidad se est\xe1 cerrando")
+p(){A.b1("Contabilidad se est\xe1 cerrando")
 this.aR()},
 E(d){var w=null,v=this.d
 return A.lV(w,w,A.qt(C.e7,A.b([A.fb(D.agA,D.JW,w,w,D.aNI),A.fb(D.agG,D.JW,w,w,D.aNv),A.fb(D.agy,D.an2,w,w,D.aOa),A.fb(D.aG3,D.ane,w,w,D.aO6)],x.g),new B.b2x(this),v,w))}}
@@ -759,7 +759,7 @@ v.d.hj(0,w)}v.aA()},
 p(){var w=this.d
 w===$&&A.a()
 if((w.b&1)!==0)w.aM(0)
-A.b2("Registrar costos cerrado")
+A.b1("Registrar costos cerrado")
 this.aR()},
 E(d){var w=this,v=x.w,u=A.aB(d,null,v).w.a.a,t=u/2,s=t-40,r=A.aB(d,null,v).w.a.b-130
 v=w.d
@@ -779,7 +779,7 @@ if($.a3==null)A.fl()
 $.a3.toString
 this.d.hv().bF(0,new B.bWm(this),x.P)},
 p(){var w,v,u=this
-A.b2("se disposea la pantalla")
+A.b1("se disposea la pantalla")
 w=u.f
 v=w.dy$=$.ai()
 w.dx$=0
@@ -1097,7 +1097,7 @@ t=u.d
 s=t.a.a
 w=s.length!==0&&r.a.a.length!==0?2:3
 break
-case 2:A.b2("esto es "+s+" y nota "+A.j(q))
+case 2:A.b1("esto es "+s+" y nota "+A.j(q))
 w=4
 return A.l(A.eG().TN(t.a.a,q),$async$a3J)
 case 4:t.fK(0,C.b_)
@@ -1938,7 +1938,7 @@ B.bW8.prototype={
 $1(d){return new A.bh(d,d,null,x.u)},
 $S:40}
 B.bW9.prototype={
-$1(d){var w=A.b1("^[0-9]*$",!0,!1,!1)
+$1(d){var w=A.b2("^[0-9]*$",!0,!1,!1)
 if(w.b.test(d)){w=this.a
 w.B(new B.bW5(w,d))}},
 $S:12}
@@ -2011,8 +2011,8 @@ $S:0}
 B.bWn.prototype={
 $0(){var w=this
 w.a.at=w.b.a
-A.b2(w.c)
-A.b2(w.d)},
+A.b1(w.c)
+A.b1(w.d)},
 $S:0}
 B.b2L.prototype={
 $1(d){var w=this.a
@@ -2172,7 +2172,7 @@ w.f=this.b.a
 w.fr=!1},
 $S:0}
 B.bWC.prototype={
-$1(d){var w=A.b1("^[0-9]*$",!0,!1,!1),v=this.a
+$1(d){var w=A.b2("^[0-9]*$",!0,!1,!1),v=this.a
 if(w.b.test(d))v.B(new B.bWr(v,d))
 else v.B(new B.bWs(v))},
 $S:12}
@@ -2779,4 +2779,4 @@ D.aNI=new A.bz("Registrar pagos",null,null,null,null,null,null,null,null,null,nu
 D.aO6=new A.bz("Registro Notas",null,null,null,null,null,null,null,null,null,null,null,null)
 D.aOa=new A.bz("Dash contabilidad",null,null,null,null,null,null,null,null,null,null,null,null)})()};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_22",e:"endPart",h:b})})($__dart_deferred_initializers__,"sTYkX1pj0U4rKDQz7zh982efiyg=");
+a.eventLog.push({p:"main.dart.js_22",e:"endPart",h:b})})($__dart_deferred_initializers__,"ImEFAhx92UogXjAj0ISips+baro=");

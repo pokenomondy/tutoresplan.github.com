@@ -3033,7 +3033,7 @@ this.b=e},
 bn1:function bn1(d,e){this.a=d
 this.b=e},
 cJF(d,e){var x
-if(d!=null){if(C.c.n(d,"%")){x=A.b1("%",!0,!1,!1)
+if(d!=null){if(C.c.n(d,"%")){x=A.b2("%",!0,!1,!1)
 x=B.Tu(A.br(d,x,""))
 x.toString
 x=e/100*x}else x=B.Tu(d)
@@ -4624,7 +4624,7 @@ if(v<=e)return t==="..."?"":t}}else t=d
 return t==="..."?"":t},
 ctn(d,e){var x,w
 if(C.e.gik(d)){x=C.e.l(d)
-w=A.b1("-",!0,!1,!1)
+w=A.b2("-",!0,!1,!1)
 x=B.Tu(A.br(x,w,""))
 x.toString
 x=B.Tu("-"+A.j(C.e.aF(x,e)))
@@ -8651,7 +8651,7 @@ w=w+(c1-w)/2-t/2
 c8.aK=new B.e4(x,w)
 c8.dK=new A.n(x,w,x+u,w+t)}}}},
 Tv(d,e){var x
-if(C.c.n(d,"%")){x=A.b1("%",!0,!1,!1)
+if(C.c.n(d,"%")){x=A.b2("%",!0,!1,!1)
 x=B.Tu(A.br(d,x,""))
 x.toString
 x=e/100*Math.abs(x)}else{x=B.Tu(d)
@@ -8895,7 +8895,7 @@ else return"PAGO"}}
 B.B8.prototype={
 W(){return new B.alA(C.l)}}
 B.alA.prototype={
-p(){A.b2("Estadistica main completo cerrando")
+p(){A.b1("Estadistica main completo cerrando")
 this.aR()},
 E(d){return A.eJ(new B.baL(this),y.gF)}}
 B.Xw.prototype={
@@ -8910,7 +8910,7 @@ w.d.hj(0,x)}w.aA()},
 p(){var x=this.d
 x===$&&A.a()
 if((x.b&1)!==0)x.aM(0)
-A.b2("Registrar costos cerrado")
+A.b1("Registrar costos cerrado")
 this.aR()},
 E(d){var x,w,v=null,u=y.w,t=A.aB(d,v,u).w.a.a
 A.aB(d,v,u).toString
@@ -8984,8 +8984,8 @@ l.CW=w/x*100
 x=l.z
 w=l.y
 l.ay=x/w*100
-A.b2("esto es ventas "+x+" y "+w)
-A.b2("porcentaje sol "+A.j(l.ay))},
+A.b1("esto es ventas "+x+" y "+w)
+A.b1("porcentaje sol "+A.j(l.ay))},
 bTc(d,e){var x,w,v,u,t,s,r,q,p,o,n,m,l=this,k=y.k,j=y.S
 l.d=A.z(k,j)
 l.e=A.z(k,j)
@@ -9128,7 +9128,7 @@ t.d=r
 t.e=A.e1(s,s,s,!1,y.jU)
 t.f=A.e1(s,s,s,!1,y.W)
 t.r=A.e1(s,s,s,!1,y.ls)
-if((r.b&4)===0){A.b2("EJECTANDO STREAM DE COSTOS")
+if((r.b&4)===0){A.b1("EJECTANDO STREAM DE COSTOS")
 r=t.c
 r.toString
 x=t.w.q1(r)
@@ -9184,7 +9184,7 @@ w=new A.y(Date.now(),!1).D(0,A.cm(1,0,0,0,0,0))
 x.go=w
 x.aHi(x.fy,w)},
 aHi(a6,a7){var x,w,v,u,t,s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,a0,a1=this,a2="nombre_campana",a3="Prospecto",a4="Ganancia_inicial",a5="Ganancia_total"
-A.b2("ejecutando carug de campa\xf1a")
+A.b1("ejecutando carug de campa\xf1a")
 x=a1.e
 C.b.N(x)
 a1.ay=a1.ch=a1.ax=a1.at=a1.as=0
@@ -9266,8 +9266,8 @@ fM(d){var x=null,w=this.w.a,v=A.bi(20)
 return A.a1(C.J,A.am(d,C.f,x,C.F,C.h,C.n),C.i,x,x,new A.aM(w,x,x,v,x,x,x,C.t),x,80,x,C.cP,x,x,x,120)},
 cN(d,e){var x=null
 return A.B(d,x,x,x,x,x,A.aa(x,x,e,x,x,x,x,x,"Poppins",x,x,15,x,x,C.w,x,x,!0,x,x,x,x,x,x,x,x),C.ab,x,x,x)},
-bJl(d,e){A.b2("Rango de fechas seleccionado: "+A.j(d)+" - "+A.j(e))
-if(d==null||e==null)A.b2("son nulos")
+bJl(d,e){A.b1("Rango de fechas seleccionado: "+A.j(d)+" - "+A.j(e))
+if(d==null||e==null)A.b1("son nulos")
 else{this.B(new B.bkJ(this,d,e))
 this.aHi(d,e)}},
 b42(){var x,w=y.N,v=y.z,u=A.b([A.N(["x","Cliente","y",this.ax],w,v),A.N(["x","Prospecto","y",this.at],w,v),A.N(["x","Leads","y",this.as],w,v)],y.bV)
@@ -10797,7 +10797,7 @@ s=f.w
 q=r.w
 f.w=s>q?s:q+1}else f.w=C.b.n(m,r.w)?f.w:r.w}return w.b*f.w},
 beO(d,e,f,g){var x,w,v,u,t,s=A.aKr("textCollection",new B.b_y())
-if(g===D.Fc)s.b=C.c.kU(d,A.b1(" ",!0,!1,!1))
+if(g===D.Fc)s.b=C.c.kU(d,A.b2(" ",!0,!1,!1))
 else J.cT(s.app(),d)
 x=A.b([],y.s)
 w=f.a
@@ -12857,7 +12857,7 @@ if(e==null&&e!=="AxisCross"&&s.geR())w.yn()}},
 JX(d){return this.xp(d,null)},
 bet(d){var x,w,v,u,t,s,r,q=null,p=A.b([],y.s)
 for(x=d.length,w=this.a,v=0;v<d.length;d.length===x||(0,A.M)(d),++v){u=d[v]
-t=A.b1("^-?[0-9]+$",!0,!1,!1)
+t=A.b2("^-?[0-9]+$",!0,!1,!1)
 s=J.R(u)
 r=s.gt(u)
 if(0>r)A.d(A.fd(0,0,s.gt(u),q,q))
@@ -12957,7 +12957,7 @@ A.dR(v)
 w=t.b_(Math.pow(v,x))
 u.b.aU.gGR()
 u.b.aU.gGR()
-w=u.b.aU.gGR().TQ(0,A.b1("{value}",!0,!1,!1),w)
+w=u.b.aU.gGR().TQ(0,A.b2("{value}",!0,!1,!1),w)
 u.b.akN(w,x)}t.Qt(u,t.e)
 u.b.aU.gaj5()
 t=u.b.aU.gaj5()
@@ -31172,7 +31172,7 @@ B.bxg.prototype={
 $3(d,e,f){var x,w,v=null,u=this.a,t=e.b
 u.y=t
 C.b.dC(t,new B.bxe())
-A.b2("la lista de costos es de "+u.y.length)
+A.b1("la lista de costos es de "+u.y.length)
 t=u.y.length
 x=A.B("Agregar costos asociados al marketing "+t,v,v,v,v,v,v,v,v,v,v)
 w=u.a.c
@@ -33610,8 +33610,8 @@ B.bQE.prototype={
 $0(){var x=this.a.d.as.w
 x===$&&A.a()
 x=x.d
-if(x===D.F4)return A.b([new A.FU(A.b1("[0-9-]",!0,!1,!1),!0,"")],y.l1)
-else if(x===D.yh)return A.b([new A.FU(A.b1("[0-9.]",!0,!1,!1),!0,"")],y.l1)
+if(x===D.F4)return A.b([new A.FU(A.b2("[0-9-]",!0,!1,!1),!0,"")],y.l1)
+else if(x===D.yh)return A.b([new A.FU(A.b2("[0-9.]",!0,!1,!1),!0,"")],y.l1)
 return null},
 $S:1236}
 B.bQA.prototype={
@@ -34912,4 +34912,4 @@ D.aVB=new B.c71(0,"material")})();(function lazyInitializers(){var x=a.lazy
 x($,"deT","cLC",()=>new A.F())
 x($,"deS","aVJ",()=>new B.bMr())})()};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_15",e:"endPart",h:b})})($__dart_deferred_initializers__,"5pbsLNHpHDZCSnah4AP8LGzQDRw=");
+a.eventLog.push({p:"main.dart.js_15",e:"endPart",h:b})})($__dart_deferred_initializers__,"jP1FTMcizA13R0IjaBK9hV/aGjo=");

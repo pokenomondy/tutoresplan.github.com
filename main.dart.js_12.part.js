@@ -379,7 +379,7 @@ t=v.h(0,t)
 if(t!=null)J.dr(t,"prom_entregatutoresglobal",Math.abs(r))}},
 am5(d){var x,w,v,u
 for(x=J.aF(this.b),w=0,v=0;x.v();){u=x.gU(x)
-if(u.x===d&&u.fx!==-1){v+=u.fx;++w}}B.b2("tenemos notas "+B.j(v)+" y numero "+w+" "+d)
+if(u.x===d&&u.fx!==-1){v+=u.fx;++w}}B.b1("tenemos notas "+B.j(v)+" y numero "+w+" "+d)
 if(w>0)return v/w
 else return 5},
 aSq(){var x,w,v,u,t,s
@@ -720,7 +720,7 @@ q.toString
 p=t.r
 x=7
 return B.l(q.a0q(p.a.a,"dufyasesor123"),$async$Kl)
-case 7:B.b2("usuario creado")
+case 7:B.b1("usuario creado")
 x=8
 return B.l(B.eG().Qb(t.d.a.a,t.e.a.a,B.cx(t.f.a.a,null),t.w.a,p.a.a,t.x.a,n.f.gxu().a.c.a.a,t.CW.a.a),$async$Kl)
 case 8:n.dI()
@@ -737,8 +737,8 @@ n=B.aA(m)
 if(n instanceof B.FV){s=n
 if(s.c==="weak-password")t.B(new A.bXi())
 else if(s.c==="email-already-in-use")t.B(new A.bXj())}else{r=n
-B.b2(r)
-B.b2("error no se creo")}x=6
+B.b1(r)
+B.b1("error no se creo")}x=6
 break
 case 3:x=1
 break
@@ -1362,10 +1362,10 @@ A.bXh.prototype={
 $1(d){return new B.bh(d,d,null,y.b)},
 $S:40}
 A.bXi.prototype={
-$0(){B.b2("contrase\xf1a mala")},
+$0(){B.b1("contrase\xf1a mala")},
 $S:0}
 A.bXj.prototype={
-$0(){B.b2("email ya usado")},
+$0(){B.b1("email ya usado")},
 $S:0}
 A.bUI.prototype={
 $0(){var x=this.a
@@ -1399,4 +1399,4 @@ D.aNO=new B.bz("Tutores",null,null,null,null,null,null,null,null,null,null,null,
 D.aOf=new B.bz("Nuevo tutor",null,null,null,null,null,null,null,null,null,null,null,null)
 D.aOl=new B.bz("Estadisticas globales",null,null,null,null,null,null,null,null,null,null,null,null)})()};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_12",e:"endPart",h:b})})($__dart_deferred_initializers__,"/HusSLRlJsdZmALMI8MLPVs0URw=");
+a.eventLog.push({p:"main.dart.js_12",e:"endPart",h:b})})($__dart_deferred_initializers__,"9psX2YqofWr4mqCre3+0Uy18haE=");

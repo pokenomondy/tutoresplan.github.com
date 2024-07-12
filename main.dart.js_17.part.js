@@ -6622,8 +6622,8 @@ t===$&&A.a()
 if((t.b&4)===0){t=v.c
 t.toString
 u=v.CW.lZ(t,"ADMIN","")
-v.cx.hj(0,u)}}else{A.b2("se carga el stream del tutor se supone")
-A.b2("el nombre de tutor "+r)
+v.cx.hj(0,u)}}else{A.b1("se carga el stream del tutor se supone")
+A.b1("el nombre de tutor "+r)
 t=v.cx
 t===$&&A.a()
 if((t.b&4)===0){t=v.c
@@ -6631,7 +6631,7 @@ t.toString
 u=v.CW.lZ(t,"TUTOR",r)
 v.cx.hj(0,u)}}return A.p(null,w)}})
 return A.q($async$a_R,w)},
-p(){A.b2("calendario se est\xe1 cerrando")
+p(){A.b1("calendario se est\xe1 cerrando")
 var x=this.cx
 x===$&&A.a()
 if((x.b&1)!==0)x.aM(0)
@@ -23113,7 +23113,7 @@ B.aZp.prototype={
 $2(d,e){var x,w=null
 if(e.a===C.bg)return C.am
 else{x=e.c
-if(x!=null){A.b2(x)
+if(x!=null){A.b1(x)
 return A.B("Error contabilidad: "+A.j(x),w,w,w,w,w,w,w,w,w,w)}else return C.am}},
 $S:98}
 B.aZq.prototype={
@@ -25208,4 +25208,4 @@ return B.czE("UTC",A.b([-864e13],w),A.b([0],w),A.b([D.xC],y.M))})
 x($,"dh1","cmD",()=>new B.bjL(A.z(y.N,A.au("ZB"))))
 x($,"dcE","cL3",()=>A.cx7().a)})()};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_17",e:"endPart",h:b})})($__dart_deferred_initializers__,"HytP6fW6E+ThdoUFvwYgrq+NJaY=");
+a.eventLog.push({p:"main.dart.js_17",e:"endPart",h:b})})($__dart_deferred_initializers__,"wv1gr0boWgDXOXfWtksuQPb/Tw4=");

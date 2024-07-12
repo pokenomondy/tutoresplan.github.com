@@ -353,7 +353,7 @@ a2.id=a1.w
 a2.k1=a1.x
 if(!a2.go){a2.dy=a1.y
 x=a1.ay
-B.b2("cargamos "+a1.a+" y permisops "+B.j(x))
+B.b1("cargamos "+a1.a+" y permisops "+B.j(x))
 a2.ok=x.a
 a2.p1=x.b
 a2.p2=x.c
@@ -755,4 +755,4 @@ D.aiY=new B.a2(20,5,20,5)
 D.ajp=new B.a2(0,5.5,10,5.5)
 D.aNP=new B.bz("Tipo de cuenta",null,null,null,null,null,null,null,null,null,null,null,null)})()};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_26",e:"endPart",h:b})})($__dart_deferred_initializers__,"EvhVySlx2dKf4jOKJ0LPftHSWP8=");
+a.eventLog.push({p:"main.dart.js_26",e:"endPart",h:b})})($__dart_deferred_initializers__,"x82k4O4z13uGGZoimMJX6+7AaxA=");
