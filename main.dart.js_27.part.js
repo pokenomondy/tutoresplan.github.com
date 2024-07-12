@@ -63,19 +63,19 @@ x.aA()
 if($.a3==null)B.fk()
 $.a3.toString
 x.f.hv().bF(0,new A.b5_(),y.P)
-x.oH()},
-oH(){var x=0,w=B.r(y.H),v=this,u,t
-var $async$oH=B.m(function(d,e){if(d===1)return B.o(e,w)
+x.pt()},
+pt(){var x=0,w=B.r(y.H),v=this,u,t
+var $async$pt=B.m(function(d,e){if(d===1)return B.o(e,w)
 while(true)switch(x){case 0:t=B.iu(v.w.fy,y.L)
 x=2
-return B.l(t,$async$oH)
+return B.l(t,$async$pt)
 case 2:t=v.r
 t===$&&B.a()
 if((t.b&4)===0){t=v.c
 t.toString
 u=v.d.nr(t,"TUTOR")
 v.r.hj(0,u)}return B.p(null,w)}})
-return B.q($async$oH,w)},
+return B.q($async$pt,w)},
 p(){var x=this.r
 x===$&&B.a()
 if((x.b&1)!==0)x.aM(0)
@@ -101,7 +101,7 @@ p(){this.aR()},
 E(d){var x,w=null,v="ESPERANDO",u=y.w,t=B.aB(d,w,u).w.a.a,s=B.aB(d,w,u).w.a.b
 u=this.d
 x=this.e.a
-return B.lV(w,w,B.qt(C.e7,B.b([B.fa(new A.DA(t,"DISPONIBLES","DISPONIBLE",s,x,w),C.dA,w,w,D.a4W),B.fa(new A.DA(t,v,v,s,x,w),C.dA,w,w,D.a4T)],y.g),new A.bHD(this),u,w))}}
+return B.lV(w,w,B.qt(C.e7,B.b([B.fb(new A.DA(t,"DISPONIBLES","DISPONIBLE",s,x,w),C.dA,w,w,D.a4W),B.fb(new A.DA(t,v,v,s,x,w),C.dA,w,w,D.a4T)],y.g),new A.bHD(this),u,w))}}
 var z=a.updateTypes(["F3(C,h8,i_,e?)"])
 A.b5_.prototype={
 $1(d){},
@@ -109,9 +109,9 @@ $S:7}
 A.bX6.prototype={
 $4(d,e,f,g){var x,w,v=e.a,u=f.e,t=this.a,s=u.a
 t.d=s
-B.b5("nombre del tutor "+s)
+B.b2("nombre del tutor "+s)
 s=J.R(v)
-B.b5("las solicitudes son "+s.gt(v))
+B.b2("las solicitudes son "+s.gt(v))
 x=B.b([],y.e)
 w=t.a.e
 if(w==="DISPONIBLE"){u=s.ke(v,new A.bX3(t,u.w))
@@ -166,4 +166,4 @@ B.qU(b.typeUniverse,JSON.parse('{"DA":{"P":[],"e":[]},"a3T":{"P":[],"e":[]},"AR"
 var y=(function rtii(){var x=B.au
 return{C:x("w<el>"),g:x("w<kh>"),e:x("w<hG>"),p:x("w<e>"),t:x("E<hG>"),w:x("lU"),P:x("bY"),l:x("h8"),j:x("i_"),L:x("qP?"),H:x("~")}})();(function constants(){E.aiX=new B.a2(20,20,0,20)})()};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_27",e:"endPart",h:b})})($__dart_deferred_initializers__,"xIk6Ee1iWndY/G7qZt2wNFWW3QE=");
+a.eventLog.push({p:"main.dart.js_27",e:"endPart",h:b})})($__dart_deferred_initializers__,"5XMJzDCQ5PwHDsc2N0iOTNV2wU8=");
