@@ -4,7 +4,7 @@ a[b][c].push({p:"main.dart.js_12",e:"beginPart"})})(self,"$__dart_deferred_initi
 $__dart_deferred_initializers__.current=function(a,b,c,$){var A,B
 A=c[0]
 B=c[31]
-var z=a.updateTypes([]);(function constants(){B.a5v=new A.bs("Esperando",null,null,null,null,null,null,null,null,null,null,null,null)
-B.a5y=new A.bs("Disponible",null,null,null,null,null,null,null,null,null,null,null,null)})()};
+var z=a.updateTypes([]);(function constants(){B.a31=new A.bb("Disponible",null,null,null,null,null,null,null,null,null,null,null)
+B.a37=new A.bb("Esperando",null,null,null,null,null,null,null,null,null,null,null)})()};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_12",e:"endPart",h:b})})($__dart_deferred_initializers__,"pRoOvZkKM5xS/A6lqMqlxrv149Y=");
+a.eventLog.push({p:"main.dart.js_12",e:"endPart",h:b})})($__dart_deferred_initializers__,"/eC88W44TWlbcBe0YcKpdzF9q9Y=");
