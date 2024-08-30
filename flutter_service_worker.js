@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"flutter_bootstrap.js": "22eab13010d3231ba0638d5338dbe3bf",
+const RESOURCES = {"flutter_bootstrap.js": "fc4063971cf2645d6ba401759e75a585",
 "main.dart.js_24.part.js": "8a86ef1c6fde4427603e8cf58c5c0f89",
 "main.dart.js_34.part.js": "ef75dbb0abb1aeab7a701877355121a3",
 "version.json": "056f384927d8e2d09d8231af787b20ad",
@@ -17,7 +17,7 @@ const RESOURCES = {"flutter_bootstrap.js": "22eab13010d3231ba0638d5338dbe3bf",
 "main.dart.js_25.part.js": "95b2142e517a7a09d7f902a7b71530ef",
 "firebase-messaging-sw.js": "befaa7495aaf51b92b2030f1ca9d3803",
 "main.dart.js_4.part.js": "cd9f17af750a82095512032833d2720a",
-"main.dart.js": "8c291c9b2a4cc1d4da60dccb0fcf485a",
+"main.dart.js": "3e23ee35102f3d04fd597aaf75d910aa",
 "main.dart.js_18.part.js": "5c91652c4b4f99fe9846e7f0ddeff137",
 "main.dart.js_27.part.js": "d3da92db5726ab997b6f09cf84c5a3ef",
 "main.dart.js_37.part.js": "aa9af74a90649c6eabfc18f9291395f6",
