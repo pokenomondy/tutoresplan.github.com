@@ -185,7 +185,7 @@ this.aI()},
 D(d){var x=y.w
 A.aA(d,null,x).toString
 return A.dZ(new B.bND(this,A.aA(d,null,x).w.a.b),y.b)},
-bCb(d){var x="type",w="text",v=null,u="Sin programar",t=J.S(d)
+bCc(d){var x="type",w="text",v=null,u="Sin programar",t=J.S(d)
 if(J.f(t.h(d,x),"HEADER"))if(J.f(t.h(d,"format"),"TEXT"))return A.y(t.h(d,w),v,v,v,v,v,A.a9(v,v,v,v,v,v,v,v,v,v,v,15,v,v,C.x,v,v,!0,v,v,v,v,v,v,v,v),v,v,v)
 else return A.y(u,v,v,v,v,v,v,v,v,v)
 else if(J.f(t.h(d,x),"BODY"))return A.y(t.h(d,w),v,v,v,v,v,v,v,v,v)
@@ -231,15 +231,15 @@ x=x.d
 return A.ab(A.b([s,new A.av(r,t,q,t),p,A.a4(t,A.Ed(new B.ckO(v),y.r,y.l,y.C),C.k,t,t,t,t,x*0.9,t,t,t,t,t,w)],o),C.f,t,C.i,C.h,C.m)},
 bNp(d){if(d.e===0)return $.zE()
 else return $.pu()},
-YJ(d){return this.bvX(d)},
-bvX(d){var x=0,w=A.o(y.H)
+YJ(d){return this.bvY(d)},
+bvY(d){var x=0,w=A.o(y.H)
 var $async$YJ=A.k(function(e,f){if(e===1)return A.l(f,w)
 while(true)switch(x){case 0:x=2
 return A.j(new B.acC(A.bD()).SC(d),$async$YJ)
 case 2:return A.m(null,w)}})
 return A.n($async$YJ,w)},
-O0(d,e){return this.bvV(d,e)},
-bvV(d,e){var x=0,w=A.o(y.H)
+O0(d,e){return this.bvW(d,e)},
+bvW(d,e){var x=0,w=A.o(y.H)
 var $async$O0=A.k(function(f,g){if(f===1)return A.l(g,w)
 while(true)switch(x){case 0:x=2
 return A.j(new B.acC(A.bD()).Sz(d,e),$async$O0)
@@ -261,9 +261,9 @@ else if(d.r!==0)return A.y("Entregado",x,x,x,x,x,x,x,x,x)
 else if(d.f!==0)return A.y("Enviado",x,x,x,x,x,x,x,x,x)
 else if(d.x!==0)return A.ab(A.b([A.y("Fallo",x,x,x,x,x,x,x,x,x),A.y("code : "+d.y,x,x,x,x,x,x,x,x,x),A.y("titulo Error :"+d.z,x,x,x,x,x,x,x,x,x)],y.p),C.f,x,C.i,C.h,C.m)
 else return A.y("Error",x,x,x,x,x,x,x,x,x)},
-bx_(d){if(d==="CLIENTE")return C.a0
+bx0(d){if(d==="CLIENTE")return C.a0
 else return C.iX},
-bIL(d){var x=null,w=d.d,v=J.S(w),u=v.h(w,"type")
+bIM(d){var x=null,w=d.d,v=J.S(w),u=v.h(w,"type")
 if(u==="text")return A.y(J.a5(v.h(w,"text"),"body"),x,x,x,x,x,x,x,x,x)
 else if(u==="image"){v=d.Q
 if(v==="")return A.y("Cargando Imagen",x,x,x,x,x,x,x,x,x)
@@ -273,7 +273,7 @@ else if(u==="audio")if(d.Q==="")return A.y("Cargando audio",x,x,x,x,x,x,x,x,x)
 else return A.bF(x,A.y("Escuchar audio",x,x,x,x,x,x,x,x,x),C.v,!1,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,new B.ckv(d),x,x,x,x,x,x)
 else if(u==="button")return A.nA(A.y(J.a5(v.h(w,"button"),"text"),x,x,x,x,x,x,x,x,x),new B.ckw())
 else return A.y("No programao",x,x,x,x,x,x,x,x,x)},
-b_2(d,e,f){var x,w,v,u,t,s=null
+b_3(d,e,f){var x,w,v,u,t,s=null
 B.Kb(D.ao1,D.aTk,new B.ck8())
 B.Kb(D.aoi,D.aSx,new B.ck9())
 B.Kb(D.aob,D.aT3,new B.cka())
@@ -289,12 +289,12 @@ u=A.h7(!0,C.aE,!1,C.A,A.hd(),this.f,s,s,C.aL,1,new A.ap(C.a4,s,s,A.aQ(20),s,s,s,
 t=A.nA(A.y("Enviar mensaje",s,s,s,s,s,s,s,s,s),new B.ckk(this,e))
 x=x.a
 return A.ab(A.b([w,A.a6(A.b([new A.av(d*2/3,s,u,s),t,A.eS(x,new B.ckb(),4,C.j,D.ams,30,3),A.eS(x,new B.ckc(),4,C.j,D.amt,30,3)],v),C.f,C.i,C.h,s)],v),C.f,s,C.i,C.h,C.m)}else return A.y("Han pasado 24 horas, no es posible enviar mensaje",s,s,s,s,s,s,s,s,s)},
-Uh(d,e){return this.aTd(d,e)},
-aTd(d,e){var x=0,w=A.o(y.H),v=this,u,t
+Uh(d,e){return this.aTe(d,e)},
+aTe(d,e){var x=0,w=A.o(y.H),v=this,u,t
 var $async$Uh=A.k(function(f,g){if(f===1)return A.l(g,w)
 while(true)switch(x){case 0:t=v.c
 t.toString
-t=A.bQ(t,!1,y.l).r
+t=A.bM(t,!1,y.l).r
 u=v.f
 x=u.a.a.length===0?2:4
 break
@@ -321,8 +321,8 @@ this.aI()},
 D(d){var x=null
 return A.ab(A.b([A.y("ss",x,x,x,x,x,x,x,x,x)],y.p),C.f,x,C.i,C.h,C.m)}}
 B.acz.prototype={
-qb(d){return this.aQ3(d)},
-aQ3(b7){var $async$qb=A.k(function(b9,c0){switch(b9){case 2:s=v
+qb(d){return this.aQ4(d)},
+aQ4(b7){var $async$qb=A.k(function(b9,c0){switch(b9){case 2:s=v
 x=s.pop()
 break
 case 1:t=c0
@@ -330,7 +330,7 @@ x=u}while(true)switch(x){case 0:b3=r.a
 x=3
 return A.ar(b3.cH(),$async$qb,w)
 case 3:d=y.r
-q=A.bQ(b7,!1,d)
+q=A.bM(b7,!1,d)
 b3=b3.go
 b3.toString
 x=4
@@ -356,9 +356,9 @@ n=b3.ij()
 x=9
 return A.ar(r.b.kI(new B.ciQ(),y.A),$async$qb,w)
 case 9:a1=c0
-a2=A.bQ(b7,!1,d)
+a2=A.bM(b7,!1,d)
 a1.toString
-a2.byL(a1)
+a2.byM(a1)
 case 7:b3=new A.fG(A.ep(n,"stream",y.K),y.D)
 u=10
 d=r.b,a0=y.H,a3=y.A,a4=y.P,a5=y.O
@@ -410,7 +410,7 @@ for(a7=l,a8=a7.length,a9=0;a9<a7.length;a7.length===a8||(0,A.N)(a7),++a9){f=a7[a
 b0=g
 b0.toString
 e=J.pw(b0,new B.ciT(f))
-if(!J.f(e,-1))q.bIY(f)
+if(!J.f(e,-1))q.bIZ(f)
 else{b0=q
 b0.a.push(f)
 b0.a6()}}x=22
@@ -446,15 +446,15 @@ break}else{v=t.em(s,new B.ciO(),y.S).dP(0,new B.ciP())
 x=1
 break}case 1:return A.m(v,w)}})
 return A.n($async$Zq,w)},
-zy(d,e){return this.aQ7(d,e)},
-aQ7(c1,c2){var $async$zy=A.k(function(c4,c5){switch(c4){case 2:s=v
+zy(d,e){return this.aQ8(d,e)},
+aQ8(c1,c2){var $async$zy=A.k(function(c4,c5){switch(c4){case 2:s=v
 x=s.pop()
 break
 case 1:t=c5
 x=u}while(true)switch(x){case 0:b8=r.a
 x=3
 return A.ar(b8.cH(),$async$zy,w)
-case 3:q=A.bQ(c1,!1,y.d)
+case 3:q=A.bM(c1,!1,y.d)
 i=b8.go.dh(c2).kP("MENSAJES")
 b9=A
 c0=J
@@ -540,8 +540,8 @@ return A.j(A.ach(A.cp9(A.E(["type","service_account","project_id","dufy-asesoria
 case 2:v.a=e
 return A.m(null,w)}})
 return A.n($async$a0x,w)},
-LC(d,e,f){return this.aTc(d,e,f)},
-aTc(d,e,f){var x=0,w=A.o(y.z),v=this,u,t,s,r,q,p,o,n,m
+LC(d,e,f){return this.aTd(d,e,f)},
+aTd(d,e,f){var x=0,w=A.o(y.z),v=this,u,t,s,r,q,p,o,n,m
 var $async$LC=A.k(function(g,h){if(g===1)return A.l(h,w)
 while(true)switch(x){case 0:A.ay("vamos en "+d)
 u=y.z
@@ -615,14 +615,14 @@ B.afq.prototype={}
 B.aDF.prototype={}
 B.cmc.prototype={}
 B.bsI.prototype={
-ZN(d,e,f){return this.bBc(0,e,f)},
-bBc(d,e,f){var x=0,w=A.o(y.G),v,u=this,t,s,r
+ZN(d,e,f){return this.bBd(0,e,f)},
+bBd(d,e,f){var x=0,w=A.o(y.G),v,u=this,t,s,r
 var $async$ZN=A.k(function(g,h){if(g===1)return A.l(h,w)
 while(true)switch(x){case 0:t=C.ad.u5(e)
 s=B
 r=y.P
 x=3
-return A.j(u.a.aMx(0,"v2/"+A.mr(C.l8,f,C.aC,!1)+"/tasks","POST",t,A.v(y.N,y.a)),$async$ZN)
+return A.j(u.a.aMy(0,"v2/"+A.mr(C.l8,f,C.aC,!1)+"/tasks","POST",t,A.v(y.N,y.a)),$async$ZN)
 case 3:v=s.cXx(r.a(h))
 x=1
 break
@@ -733,7 +733,7 @@ B.bNC.prototype={
 $2(d,e){var x,w,v,u=null,t=this.b[e],s=y.p,r=A.b([A.y("Categoria "+t.b,u,u,u,u,u,u,u,u,u),A.y("nombre plantilla "+t.c,u,u,u,u,u,u,u,u,u),A.y("Existe: "+t.d,u,u,u,u,u,u,u,u,u)],s)
 if(t.d){x=$.zE()
 s=A.b([],s)
-for(w=J.az(J.a5(t.e,"components")),v=this.a;w.B();)s.push(v.bCb(w.gV(w)))
+for(w=J.az(J.a5(t.e,"components")),v=this.a;w.B();)s.push(v.bCc(w.gV(w)))
 r.push(A.a4(u,A.ab(s,C.f,u,C.i,C.h,C.m),C.k,x,u,u,u,u,u,u,u,u,u,300))}return A.my(u,C.co,A.ab(r,C.f,u,C.i,C.h,C.m),u,C.dV)},
 $S:72}
 B.b29.prototype={
@@ -824,7 +824,7 @@ B.ckz.prototype={
 $2(d,e){return C.c.bt(e.a,d.a)},
 $S:1319}
 B.ckC.prototype={
-$0(){var x,w,v=this,u=v.b,t=A.bQ(u,!1,y.r),s=t.b=v.c
+$0(){var x,w,v=this,u=v.b,t=A.bM(u,!1,y.r),s=t.b=v.c
 t.a6()
 x=v.a
 if(x.f){w=A.aqj(new B.cky(x),null,y.z)
@@ -854,7 +854,7 @@ v=this.a
 if(v.r)w.push(A.bF(u,A.y("Atras",u,u,u,u,u,u,u,u,u),C.v,!1,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,new B.ckn(d),u,u,u,u,u,u))
 w.push(A.ab(A.b([A.y(s.c,u,u,u,u,u,u,u,u,u)],x),C.f,u,C.i,C.h,C.m))
 w.push(A.y("ASIGNAR CHAT A: ",u,u,u,u,u,u,u,u,u))
-return A.ab(A.b([A.a6(w,C.f,C.i,C.h,u),A.fY(new B.cko(),v.d.zy(d,C.c.l(p)),y.c),A.dZ(new B.ckp(v),y.d),v.b_2(v.a.c,p,q)],x),C.f,u,C.i,C.h,C.m)}},
+return A.ab(A.b([A.a6(w,C.f,C.i,C.h,u),A.fY(new B.cko(),v.d.zy(d,C.c.l(p)),y.c),A.dZ(new B.ckp(v),y.d),v.b_3(v.a.c,p,q)],x),C.f,u,C.i,C.h,C.m)}},
 $C:"$4",
 $R:4,
 $S:1320}
@@ -883,8 +883,8 @@ r=x.c
 w=r==="CLIENTE"
 v=w?$.pu():$.zE()
 u=this.a
-t=u.bx_(r)
-u=A.b([u.bIL(x),A.y(A.ns(x.b*1000,!1).l(0),s,s,s,s,s,s,s,s,s),u.bPn(x)],y.p)
+t=u.bx0(r)
+u=A.b([u.bIM(x),A.y(A.ns(x.b*1000,!1).l(0),s,s,s,s,s,s,s,s,s),u.bPn(x)],y.p)
 if(!w)u.push(A.y("Enviado por "+r,s,s,s,s,s,s,s,s,s))
 return A.a4(s,A.ab(u,t,s,C.i,C.h,C.m),C.k,v,s,s,s,s,s,C.eX,D.ajo,s,s,s)},
 $S:454}
@@ -1105,4 +1105,4 @@ D.aTk=new A.bd("Move",null,null,null,null,null,null,null,null,null,null,null)
 D.aTl=new A.bd("Chats",null,null,null,null,null,null,null,null,null,null,null)
 D.aTt=new A.bd("Unpin",null,null,null,null,null,null,null,null,null,null,null)})()};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_17",e:"endPart",h:b})})($__dart_deferred_initializers__,"awjldoHFqUyvJVqmgZMVIR7rUuo=");
+a.eventLog.push({p:"main.dart.js_17",e:"endPart",h:b})})($__dart_deferred_initializers__,"AVlw/bVWXgCf4TIGIy+3NiyY1XY=");
