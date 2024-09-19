@@ -260,16 +260,16 @@ if(f===22)r.push(B.kX(w.xr,new A.bwr(w)))
 if(f===23)r.push(B.kX(w.y1,new A.bws(w)))
 r.push(B.a8(B.b([B.eY(w.cx.a,new A.bwt(w,f),5,C.k,C.nw,25,3),B.eY(C.bM,new A.bwu(w,f),5,C.k,C.KH,25,3)],t),C.f,C.G,C.h,v))
 s.push(new B.fe(1,C.bi,B.a8(r,C.f,C.J,C.h,v),v))}return B.a8(s,C.f,C.J,C.h,v)},
-a48(d,e,f){return this.bV1(d,e,f)},
-bV1(d,e,f){var x=0,w=B.p(y.z),v=this
+a48(d,e,f){return this.bV0(d,e,f)},
+bV0(d,e,f){var x=0,w=B.p(y.z),v=this
 var $async$a48=B.l(function(g,h){if(g===1)return B.m(h,w)
 while(true)switch(x){case 0:x=2
 return B.k(new B.WE(B.C_()).alL(d,e,f),$async$a48)
 case 2:v.C(new A.bvN(v,d))
 return B.n(null,w)}})
 return B.o($async$a48,w)},
-a6p(d,e){return this.c_Q(d,e)},
-c_Q(d,e){var x=0,w=B.p(y.z),v=this,u,t,s,r,q,p
+a6p(d,e){return this.c_O(d,e)},
+c_O(d,e){var x=0,w=B.p(y.z),v=this,u,t,s,r,q,p
 var $async$a6p=B.l(function(f,g){if(f===1)return B.m(g,w)
 while(true)switch(x){case 0:p=v.c
 p.toString
@@ -295,7 +295,7 @@ u.iC("La operaci\xf3n salio exitosa","Exito")
 v.C(new A.bwJ(v,d))
 case 3:return B.n(null,w)}})
 return B.o($async$a6p,w)},
-c_P(){var x,w=this,v=w.c
+c_N(){var x,w=this,v=w.c
 v.toString
 x=new B.e_(v)
 if(w.w==null)x.jA(0,"Error, debe seleccionar un materia","Error")
@@ -304,7 +304,7 @@ else{B.C_().Q2(w.dx,w.w.a)
 x.iC("La operaci\xf3n salio exitosa","Exito")
 w.C(new A.bwH(w))
 B.fy(B.ce(0,0,0,0,0,1),new A.bwI(w),y.P)}},
-c_O(){var x,w=this,v=w.c
+c_M(){var x,w=this,v=w.c
 v.toString
 x=new B.e_(v)
 v=w.y
@@ -451,7 +451,7 @@ $S:0}
 A.bvD.prototype={
 $0(){var x=0,w=B.p(y.H),v=this
 var $async$$0=B.l(function(d,e){if(d===1)return B.m(e,w)
-while(true)switch(x){case 0:v.a.c_P()
+while(true)switch(x){case 0:v.a.c_N()
 return B.n(null,w)}})
 return B.o($async$$0,w)},
 $S:3}
@@ -467,7 +467,7 @@ A.bvw.prototype={
 $0(){this.a.y=this.b},
 $S:0}
 A.bvG.prototype={
-$0(){this.a.c_O()},
+$0(){this.a.c_M()},
 $S:0}
 A.bwb.prototype={
 $0(){var x=this.a
@@ -794,4 +794,4 @@ return{I:x("b4<fP>"),u:x("b4<e7>"),G:x("b4<ft>"),D:x("fP"),i:x("t<fP>"),_:x("t<v
 D.alb=new B.a5(0,5.5,10,5.5)
 D.aVO=new B.bg("Tipo de cuenta",null,null,null,null,null,null,null,null,null,null,null)})()};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_31",e:"endPart",h:b})})($__dart_deferred_initializers__,"evqlvkEFhv1wOfeWuEsm5+WMm7c=");
+a.eventLog.push({p:"main.dart.js_31",e:"endPart",h:b})})($__dart_deferred_initializers__,"h/0O+1i8w0PZXXzeglSQIVaso7E=");

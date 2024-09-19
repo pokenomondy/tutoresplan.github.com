@@ -256,10 +256,10 @@ x.f.eZ(0,B.aF)
 x.e.eZ(0,B.aF)
 x.y.eZ(0,B.aF)
 x.aN()},
-E(d){var x=A.b([this.b_l(A.aB(d,null,y.w).w.a.b)],y.p)
+E(d){var x=A.b([this.b_k(A.aB(d,null,y.w).w.a.b)],y.p)
 if(this.fr)x.push(B.aL0)
 return new A.dt(B.ah,null,B.aq,B.z,x,null)},
-b_l(d){var x,w,v,u,t,s,r,q,p,o=this,n=null,m="Poppins",l="NO REGISTRADA",k="Temas a evaluar",j=o.a,i=j.c
+b_k(d){var x,w,v,u,t,s,r,q,p,o=this,n=null,m="Poppins",l="NO REGISTRADA",k="Temas a evaluar",j=o.a,i=j.c
 j=j.d
 A.c5()
 A.aQ()
@@ -322,8 +322,8 @@ A.aQ()
 x.push(A.a8(A.b([A.B("No enviar notificacion",n,n,n,n,n,A.aa(n,n,B.a8,n,n,n,n,n,m,n,n,15,n,n,B.y,n,n,!0,n,n,n,n,n,n,n,n),n,n,n),A.kX(o.k1,new C.bMM(o))],u),B.f,B.i,B.h,n))
 x.push(A.cc(o.a.d,!1,new C.bMN(o),!0,15,B.N,"Subir servicio",-1))
 v.push(A.ab(x,B.f,n,B.i,B.h,B.m))}return A.a4(n,new A.P(D.alg,A.f1(A.ab(v,B.f,n,B.i,B.h,B.m),n,n,n,n,n,B.B),n),B.j,n,n,new A.aq(j,n,n,D.a85,n,n,n,B.q),n,d,n,n,n,n,n,i)},
-Vb(d){return this.c_G(d)},
-c_G(d){var x=0,w=A.p(y.H),v=this,u,t,s,r,q,p
+Vb(d){return this.c_E(d)},
+c_E(d){var x=0,w=A.p(y.H),v=this,u,t,s,r,q,p
 var $async$Vb=A.l(function(e,f){if(e===1)return A.m(f,w)
 while(true)switch(x){case 0:p=new A.e_(d)
 x=v.CW.a<new A.A(Date.now(),!1).gc5()?2:4
@@ -345,14 +345,14 @@ if(!A.O(u))A.d(A.T(u))
 t=v.e.a.a
 s=A.bK(d,!1,y.j).r
 r=A.bK(d,!1,y._)
-if(!v.k1)if(r.a.cx)v.bXq()
+if(!v.k1)if(r.a.cx)v.bXo()
 q=A.b([],y.s)
 x=9
-return A.k(new A.nV(A.ns()).xn(v.f.a.a,v.id,t,new A.A(u,!1),v.y.a.a,v.z.a.a,v.x.d,v.dy,s.a,v.k3,v.w.a.a,q),$async$Vb)
+return A.k(new A.oS(A.ns()).xn(v.f.a.a,v.id,t,new A.A(u,!1),v.y.a.a,v.z.a.a,v.x.d,v.dy,s.a,v.k3,v.w.a.a,q),$async$Vb)
 case 9:v.ajC()
 case 6:case 3:return A.n(null,w)}})
 return A.o($async$Vb,w)},
-bXq(){var x,w,v,u,t,s,r,q,p,o,n,m,l=this,k=l.c
+bXo(){var x,w,v,u,t,s,r,q,p,o,n,m,l=this,k=l.c
 k.toString
 l.ay=A.bK(k,!1,y.j).d
 x=A.b([],y.Z)
@@ -395,8 +395,8 @@ A.aQ()
 x=v.a.r
 w=y.p
 return A.a4(u,new A.P(B.dL,A.ab(A.b([A.a8(A.b([A.c9(A.B(t,u,u,u,u,u,A.aa(u,u,x,u,u,u,u,u,"Poppins",u,u,30,u,u,B.y,u,u,!0,u,u,u,u,u,u,u,u),B.a5,u,u),1),A.eY(v.a.r,new C.c_b(v,d),5,B.k,D.apv,25,3)],w),B.f,B.i,B.h,u),A.e4(new C.c_c(v),y.l)],w),B.f,u,B.i,B.h,B.m),u),B.j,u,u,new A.aq(u,u,r,q,u,u,u,B.q),u,s,u,u,u,u,u,p)},
-bNA(d){return A.lE(new C.c_d(this),d,y.X)},
-bfS(d){var x,w=null,v=A.aQ(),u=new C.c_6(v),t=new C.c_5(v),s=this.a.r,r=s.a
+bNz(d){return A.lE(new C.c_d(this),d,y.X)},
+bfR(d){var x,w=null,v=A.aQ(),u=new C.c_6(v),t=new C.c_5(v),s=this.a.r,r=s.a
 r=A.J(0,r>>>16&255,r>>>8&255,r&255)
 x=y.p
 return A.iK(w,r,A.dF(B.G,B.f,B.k,A.b([A.B("Informacion de solicitudes",w,w,w,w,w,A.aa(w,w,s,w,w,w,w,w,"Poppins",w,w,20,w,w,B.y,w,w,!0,w,w,w,w,w,w,w,w),w,w,w),A.ab(A.b([u.$1("Disponible"),t.$1("Las solicitudes en disponible son las solicitudes realizadas por un cliente que esperan a ser cotizadas por un tutor"),u.$1("Esperando"),t.$1("Las solicitudes en esperando son las solicitudes que ya tienen cotizaci\xf3n y esta se le dio al cliente, estamos esperando respuesta del cliente"),u.$1("Expirado"),t.$1("Las solicitudes en expirado son las solicitudes que el cliente no acepto"),u.$1("No podemos"),t.$1("Las solicitudes en no podemos son las solicitudes en las que no encontramos cotizaci\xf3n por parte de nuestros tutores, nosotros no podemos realizarlas")],x),B.a1,w,B.i,B.h,B.m),A.cc(B.bM,!1,new C.c_4(d),!1,15,B.N," Cerrar ",-1)],x),450,20,5,!0,15,350),B.j,w,w,w,w,w)}}
@@ -632,7 +632,7 @@ $S:0}
 C.c_b.prototype={
 $0(){var x=0,w=A.p(y.H),v=this
 var $async$$0=A.l(function(d,e){if(d===1)return A.m(e,w)
-while(true)switch(x){case 0:v.a.bNA(v.b)
+while(true)switch(x){case 0:v.a.bNz(v.b)
 return A.n(null,w)}})
 return A.o($async$$0,w)},
 $S:3}
@@ -666,7 +666,7 @@ C.c_a.prototype={
 $2(d,e){return B.c.bJ(d.b,e.b)},
 $S:139}
 C.c_d.prototype={
-$1(d){return this.a.bfS(d)},
+$1(d){return this.a.bfR(d)},
 $S:44}
 C.c_6.prototype={
 $1(d){var x=null
@@ -693,4 +693,4 @@ D.alg=new A.a5(50,30,50,30)
 D.apv=new A.aZ(984405,"MaterialIcons",null,!1)
 D.aVR=new A.bg("New solicitud",null,null,null,null,null,null,null,null,null,null,null)})()};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_26",e:"endPart",h:b})})($__dart_deferred_initializers__,"LKkK+Dy67K/jFx00Cfjpb48Ui3Q=");
+a.eventLog.push({p:"main.dart.js_26",e:"endPart",h:b})})($__dart_deferred_initializers__,"R03SaDDdN7yJCOYimHH3w5WQQBE=");
