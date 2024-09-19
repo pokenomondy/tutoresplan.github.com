@@ -260,17 +260,17 @@ if(f===22)r.push(B.kX(w.xr,new A.bwr(w)))
 if(f===23)r.push(B.kX(w.y1,new A.bws(w)))
 r.push(B.a8(B.b([B.eY(w.cx.a,new A.bwt(w,f),5,C.k,C.nw,25,3),B.eY(C.bM,new A.bwu(w,f),5,C.k,C.KH,25,3)],t),C.f,C.G,C.h,v))
 s.push(new B.fe(1,C.bi,B.a8(r,C.f,C.J,C.h,v),v))}return B.a8(s,C.f,C.J,C.h,v)},
-a47(d,e,f){return this.bV0(d,e,f)},
-bV0(d,e,f){var x=0,w=B.p(y.z),v=this
-var $async$a47=B.l(function(g,h){if(g===1)return B.m(h,w)
+a48(d,e,f){return this.bV1(d,e,f)},
+bV1(d,e,f){var x=0,w=B.p(y.z),v=this
+var $async$a48=B.l(function(g,h){if(g===1)return B.m(h,w)
 while(true)switch(x){case 0:x=2
-return B.k(new B.WE(B.C_()).alK(d,e,f),$async$a47)
+return B.k(new B.WE(B.C_()).alL(d,e,f),$async$a48)
 case 2:v.C(new A.bvN(v,d))
 return B.n(null,w)}})
-return B.o($async$a47,w)},
-a6o(d,e){return this.c_P(d,e)},
-c_P(d,e){var x=0,w=B.p(y.z),v=this,u,t,s,r,q,p
-var $async$a6o=B.l(function(f,g){if(f===1)return B.m(g,w)
+return B.o($async$a48,w)},
+a6p(d,e){return this.c_Q(d,e)},
+c_Q(d,e){var x=0,w=B.p(y.z),v=this,u,t,s,r,q,p
+var $async$a6p=B.l(function(f,g){if(f===1)return B.m(g,w)
 while(true)switch(x){case 0:p=v.c
 p.toString
 u=new B.e_(p)
@@ -279,7 +279,7 @@ break
 case 2:u.jA(0,"Debe ingresar un valor para cambiar","Error")
 x=3
 break
-case 4:u.lS("Por favor espere","Cargando")
+case 4:u.lR("Por favor espere","Cargando")
 p=B.C_()
 t=v.cy
 s=v.dx
@@ -287,29 +287,29 @@ r=v.db
 q=v.c
 q.toString
 x=5
-return B.k(new B.WE(p).a46(d,t,s,r,q),$async$a6o)
+return B.k(new B.WE(p).a47(d,t,s,r,q),$async$a6p)
 case 5:q=u.b
 q===$&&B.a()
 B.bR(q,!1).cR(null)
 u.iC("La operaci\xf3n salio exitosa","Exito")
 v.C(new A.bwJ(v,d))
 case 3:return B.n(null,w)}})
-return B.o($async$a6o,w)},
-c_O(){var x,w=this,v=w.c
+return B.o($async$a6p,w)},
+c_P(){var x,w=this,v=w.c
 v.toString
 x=new B.e_(v)
 if(w.w==null)x.jA(0,"Error, debe seleccionar un materia","Error")
 else if(C.b.ea(w.id,new A.bwG(w)))x.jA(0,"Error, la mater\xeda ya fue agregada","Error")
-else{B.C_().Q1(w.dx,w.w.a)
+else{B.C_().Q2(w.dx,w.w.a)
 x.iC("La operaci\xf3n salio exitosa","Exito")
 w.C(new A.bwH(w))
 B.fy(B.ce(0,0,0,0,0,1),new A.bwI(w),y.P)}},
-c_N(){var x,w=this,v=w.c
+c_O(){var x,w=this,v=w.c
 v.toString
 x=new B.e_(v)
 v=w.y
 if(v==null)x.jA(0,"Error, debe llenar todos los campos para llenar la cuenta Bancaria","Error")
-else{B.C_().PV(w.dx,v,w.Q.a.a,w.as.a.a,w.at.a.a)
+else{B.C_().PW(w.dx,v,w.Q.a.a,w.as.a.a,w.at.a.a)
 x.iC("La operaci\xf3n salio exitosa","Exito")
 w.C(new A.bwD(w))
 B.fy(B.ce(0,0,0,0,0,1),new A.bwE(w),y.P)}}}
@@ -333,7 +333,7 @@ this.d.i0().bK(0,new A.bOb(this),y.P)},
 E(d){var x=this.e
 if(x===$?this.e=!1:x)return B.e4(new A.bO9(this),y.l)
 else return C.bJ},
-XR(d,e){var x=null,w=B.aa(x,x,C.ar,x,x,x,x,x,"Poppins",x,x,14,x,x,C.a_,x,x,!0,x,x,x,x,x,x,x,x)
+XS(d,e){var x=null,w=B.aa(x,x,C.ar,x,x,x,x,x,"Poppins",x,x,14,x,x,C.a_,x,x,!0,x,x,x,x,x,x,x,x)
 return new B.P(D.akF,B.a8(B.b([B.B(e,x,x,x,x,x,B.aa(x,x,C.ar,x,x,x,x,x,"Poppins",x,x,15,x,x,C.y,x,x,!0,x,x,x,x,x,x,x,x),x,x,x),B.B(d,x,x,x,x,x,w,x,x,x)],y.p),C.f,C.J,C.h,x),x)}}
 var z=a.updateTypes(["r7<h>(h)"])
 A.bvK.prototype={
@@ -419,14 +419,14 @@ t=B.B("Cuentas Bancarias",a1,a1,a1,a1,a1,B.aa(a1,a1,t,a1,a1,a1,a1,a1,"Poppins",a
 s=a5.y
 r=a5.z
 q=B.S(r).i("R<1,r7<h>>")
-u.push(B.ab(B.b([new B.P(C.Z,t,a1),E.cBx(B.K(new B.R(r,new A.bvE(),q),!0,q.i("ad.E")),new A.bvF(a5),D.aVM,s,y.N),B.iS(20,3,a5.Q,-1,!1,10,!1,a1,"Numero Cuenta Bancaria",10,C.a5,C.c6,3,-1),B.iS(20,3,a5.as,-1,!1,10,!1,a1,"Cedula Cuenta Bancaria",10,C.a5,C.c6,3,-1),B.iS(20,3,a5.at,-1,!1,10,!1,a1,"Nombre Cedula",10,C.a5,C.c6,3,-1),B.cc(v.a,!1,new A.bvG(a5),!1,15,C.N,"Subir Cuenta",-1)],n),C.f,a1,C.i,C.h,C.m))}o.push(B.ab(u,C.f,a1,C.i,C.h,C.m))}return B.dF(C.i,C.f,C.k,o,w,15,5,!1,20,x)},
+u.push(B.ab(B.b([new B.P(C.Z,t,a1),E.cBx(B.K(new B.R(r,new A.bvE(),q),!0,q.i("ad.E")),new A.bvF(a5),D.aVO,s,y.N),B.iS(20,3,a5.Q,-1,!1,10,!1,a1,"Numero Cuenta Bancaria",10,C.a5,C.c6,3,-1),B.iS(20,3,a5.as,-1,!1,10,!1,a1,"Cedula Cuenta Bancaria",10,C.a5,C.c6,3,-1),B.iS(20,3,a5.at,-1,!1,10,!1,a1,"Nombre Cedula",10,C.a5,C.c6,3,-1),B.cc(v.a,!1,new A.bvG(a5),!1,15,C.N,"Subir Cuenta",-1)],n),C.f,a1,C.i,C.h,C.m))}o.push(B.ab(u,C.f,a1,C.i,C.h,C.m))}return B.dF(C.i,C.f,C.k,o,w,15,5,!1,20,x)},
 $C:"$3",
 $R:3,
 $S:1318}
 A.bvz.prototype={
 $0(){var x=0,w=B.p(y.H),v=this
 var $async$$0=B.l(function(d,e){if(d===1)return B.m(e,w)
-while(true)switch(x){case 0:B.C_().Q6(v.a.dx)
+while(true)switch(x){case 0:B.C_().Q8(v.a.dx)
 return B.n(null,w)}})
 return B.o($async$$0,w)},
 $S:3}
@@ -451,7 +451,7 @@ $S:0}
 A.bvD.prototype={
 $0(){var x=0,w=B.p(y.H),v=this
 var $async$$0=B.l(function(d,e){if(d===1)return B.m(e,w)
-while(true)switch(x){case 0:v.a.c_O()
+while(true)switch(x){case 0:v.a.c_P()
 return B.n(null,w)}})
 return B.o($async$$0,w)},
 $S:3}
@@ -467,7 +467,7 @@ A.bvw.prototype={
 $0(){this.a.y=this.b},
 $S:0}
 A.bvG.prototype={
-$0(){this.a.c_N()},
+$0(){this.a.c_O()},
 $S:0}
 A.bwb.prototype={
 $0(){var x=this.a
@@ -680,8 +680,8 @@ $0(){var x=0,w=B.p(y.H),v=this,u,t
 var $async$$0=B.l(function(d,e){if(d===1)return B.m(e,w)
 while(true)switch(x){case 0:t=v.b
 if(t<10){u=v.a
-u.a6o(t,u.cy)}if(t>=10&&t<=30){u=v.a
-u.a47(t,u.cy,u.dx)}return B.n(null,w)}})
+u.a6p(t,u.cy)}if(t>=10&&t<=30){u=v.a
+u.a48(t,u.cy,u.dx)}return B.n(null,w)}})
 return B.o($async$$0,w)},
 $S:3}
 A.bwu.prototype={
@@ -781,7 +781,7 @@ n=C.b.jD(n)
 w=this.a
 u=w.d.a
 t=y.p
-return new B.P(G.Ip,B.lL(q,p,B.dF(C.i,C.f,o,B.b([B.B("Cuenta "+n,s,s,s,s,s,B.aa(s,s,u,s,s,s,s,s,"Poppins",s,s,18,s,s,C.y,s,s,!0,s,s,s,s,s,s,s,s),s,s,s),B.ab(B.b([w.XR(r.d,"Nombre Cuenta:"),w.XR(r.c,"Numero Cedula: "),w.XR(r.b,"Numero Cuenta: "),w.XR(x,"Tipo Cuenta: ")],t),C.f,s,C.i,C.h,C.m)],t),-1,8,5,!1,10,-1),s,C.dp),s)},
+return new B.P(G.Ip,B.lL(q,p,B.dF(C.i,C.f,o,B.b([B.B("Cuenta "+n,s,s,s,s,s,B.aa(s,s,u,s,s,s,s,s,"Poppins",s,s,18,s,s,C.y,s,s,!0,s,s,s,s,s,s,s,s),s,s,s),B.ab(B.b([w.XS(r.d,"Nombre Cuenta:"),w.XS(r.c,"Numero Cedula: "),w.XS(r.b,"Numero Cuenta: "),w.XS(x,"Tipo Cuenta: ")],t),C.f,s,C.i,C.h,C.m)],t),-1,8,5,!1,10,-1),s,C.dp),s)},
 $S:90};(function inheritance(){var x=a.inheritMany
 x(B.M,[A.B_,A.HJ,A.Im,A.IP])
 x(B.Q,[A.alX,A.awS,A.azq,A.aBp])
@@ -792,6 +792,6 @@ B.pS(b.typeUniverse,JSON.parse('{"HJ":{"M":[],"c":[]},"Im":{"M":[],"c":[]},"IP":
 var y=(function rtii(){var x=B.aj
 return{I:x("b4<fP>"),u:x("b4<e7>"),G:x("b4<ft>"),D:x("fP"),i:x("t<fP>"),_:x("t<vo>"),C:x("t<e7>"),s:x("t<h>"),e:x("t<ft>"),p:x("t<c>"),J:x("b5<Rj>"),n:x("e7"),w:x("kd"),P:x("cb"),N:x("h"),V:x("ft"),l:x("h8"),y:x("F"),z:x("@"),H:x("~")}})();(function constants(){D.akF=new B.a5(10,5,10,5)
 D.alb=new B.a5(0,5.5,10,5.5)
-D.aVM=new B.bh("Tipo de cuenta",null,null,null,null,null,null,null,null,null,null,null)})()};
+D.aVO=new B.bg("Tipo de cuenta",null,null,null,null,null,null,null,null,null,null,null)})()};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_31",e:"endPart",h:b})})($__dart_deferred_initializers__,"dQnyHXKf/3k3ahgMP2enMsEOfrA=");
+a.eventLog.push({p:"main.dart.js_31",e:"endPart",h:b})})($__dart_deferred_initializers__,"evqlvkEFhv1wOfeWuEsm5+WMm7c=");
