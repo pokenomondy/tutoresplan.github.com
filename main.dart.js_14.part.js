@@ -14,7 +14,7 @@ A=c[0]
 B=a.updateHolder(c[15],B)
 B.ayV.prototype={
 B(d){var x,w,v=this,u=y.d,t=A.aq(d,null,u).w.a.a,s=A.aq(d,null,u).w.a.b
-A.aM("tenemos "+A.k(t))
+A.aP("tenemos "+A.k(t))
 u=t>=640
 x=u?t-90:t-5
 w=v.x?x-15:x
@@ -24,7 +24,7 @@ else return v.c.$2(x,s)
 else return v.d.$2(w,s)}}
 var z=a.updateTypes([]);(function inheritance(){var x=a.inherit
 x(B.ayV,A.as)})()
-A.to(b.typeUniverse,JSON.parse('{"ayV":{"as":[],"c":[]}}'))
+A.tp(b.typeUniverse,JSON.parse('{"ayV":{"as":[],"c":[]}}'))
 var y={d:A.al("jS")}};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_14",e:"endPart",h:b})})($__dart_deferred_initializers__,"ngQuEk+T9o86sWrHmu2IpbqvbZw=");
+a.eventLog.push({p:"main.dart.js_14",e:"endPart",h:b})})($__dart_deferred_initializers__,"o9fptscg7Cc72QtLwQAijInLOsQ=");
