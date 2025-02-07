@@ -379,7 +379,7 @@ var $async$a4Q=A.j(function(e,f){if(e===1){u=f
 x=v}while(true)switch(x){case 0:p=new A.ayc(A.ep())
 v=3
 x=6
-return A.h(p.I1(d,t.k2,t.f.a.a,!0),$async$a4Q)
+return A.h(p.I0(d,t.k2,t.f.a.a,!0),$async$a4Q)
 case 6:s=f
 t.k3.A6(0,"Delta actualizado: "+A.k(s))
 v=1
@@ -594,7 +594,7 @@ B.bVe.prototype={
 $1(d){return d.a==="UNIALLY"},
 $S:40}
 B.bVk.prototype={
-$1(d){return new A.bD(d,new A.dc(A.bM()).Ek(d.a),null,y.u)},
+$1(d){return new A.bD(d,new A.dc(A.bM()).El(d.a),null,y.u)},
 $S:169}
 B.bVl.prototype={
 $4(d,e,f,g){var x,w,v=null,u=e.a,t=f.a,s=this.a
@@ -614,7 +614,7 @@ $C:"$4",
 $R:4,
 $S:1527}
 B.bV9.prototype={
-$1(d){var x=this.a.r?new A.dc(A.bM()).Ek(d.c):new A.dc(A.bM()).Ek(C.c.l(d.d))
+$1(d){var x=this.a.r?new A.dc(A.bM()).El(d.c):new A.dc(A.bM()).El(C.c.l(d.d))
 return new A.bD(d,x,null,y.Y)},
 $S:188}
 B.bVb.prototype={
@@ -784,4 +784,4 @@ D.alD=new A.a6(25,30,25,30)
 D.aq0=new A.aW(984405,"MaterialIcons",null,!1)
 D.aX8=new A.aU("New solicitud",null,null,null,null,null,null,null,null,null,null,null)})()};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_8",e:"endPart",h:b})})($__dart_deferred_initializers__,"MI/KArqUKK1Js2WluJkkKJFwkfc=");
+a.eventLog.push({p:"main.dart.js_8",e:"endPart",h:b})})($__dart_deferred_initializers__,"0TCVULOK78bsRhaev80a1bOylYg=");
