@@ -2,7 +2,7 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_2",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var J,A,C,B={
-d5l(){return new B.Bb(null)},
+d5n(){return new B.Bb(null)},
 Bb:function Bb(d){this.a=d},
 ajU:function ajU(d){var _=this
 _.d=$
@@ -95,18 +95,18 @@ if(k)j=q===100?"\u2705 Todo pagado y entregado.":"\u2705 Todo pagado, falta comp
 else if(q>=e-5&&q<=e+5)j="\ud83d\udcb0 Hay que cobrar."
 else j=q<e?"\ud83d\udee0\ufe0f Trabajando, a\xfan falta entregar avances.":"\u26a0\ufe0f Verificar pagos y avances."
 i=A.b([A.v("% Avance Precio: "+C.d.bw(e,2)+"%",null,null,null,null,null,null,null,null,null),A.v("% Avances Realizados: "+C.d.bw(q,2)+"%",null,null,null,null,null,null,null,null,null),A.v(j,null,null,null,null,null,A.a4(null,null,null,null,null,null,null,null,null,null,null,null,null,null,C.v,null,null,!0,null,null,null,null,null,null,null,null),null,null,null)],p)
-if(k&&q===100)i.push(u.aKw(a0))
-h.push(A.a0(A.b([o,n,new A.am(null,30,null,null),m,l,A.a0(i,C.f,null,C.i,C.h,C.l)],p),C.f,null,C.i,C.h,C.l))}else h.push(A.a0(A.b([A.v("Debe registrar avances en esta tesis para poder verla aca",null,null,null,null,null,null,null,null,null),u.aKw(a0)],p),C.f,null,C.i,C.h,C.l))
+if(k&&q===100)i.push(u.aKx(a0))
+h.push(A.a0(A.b([o,n,new A.am(null,30,null,null),m,l,A.a0(i,C.f,null,C.i,C.h,C.l)],p),C.f,null,C.i,C.h,C.l))}else h.push(A.a0(A.b([A.v("Debe registrar avances en esta tesis para poder verla aca",null,null,null,null,null,null,null,null,null),u.aKx(a0)],p),C.f,null,C.i,C.h,C.l))
 v=A.a2(null,A.km(null,null,C.bO,A.a0(h,C.f,null,C.i,C.h,C.l),null,C.co),C.k,t,null,null,null,null,null,null,null,null,null,null)
 x=1
 break
 case 1:return A.m(v,w)}})
 return A.n($async$a6R,w)},
-aKw(d){return A.a0(A.b([A.bQ(this.d.a,!1,new B.b58(this,d),!0,15,C.E,"Todo bien",-1)],y.u),C.f,null,C.i,C.h,C.l)},
+aKx(d){return A.a0(A.b([A.bQ(this.d.a,!1,new B.b58(this,d),!0,15,C.E,"Todo bien",-1)],y.u),C.f,null,C.i,C.h,C.l)},
 c1y(d,e,f){if(f===1)return $.jp()
 else if(d===100)return $.pb()
-else if(e>=d-5&&e<=d+5)return $.cIY()
-else if(e<d)return $.cZ0()
+else if(e>=d-5&&e<=d+5)return $.cJ_()
+else if(e<d)return $.cZ2()
 else return $.jp()}}
 var z=a.updateTypes([])
 B.b5k.prototype={
@@ -124,9 +124,9 @@ $2(d,e){var x=null
 return A.v("La prueba tutores aun no esta programado para celular",x,x,x,x,x,x,x,x,x)},
 $S:126}
 B.b5f.prototype={
-$3(d,e,f){var x,w,v=null,u=J.jr(e.b,new B.b5b()),t=A.z(u,!0,u.$ti.i("A.E"))
+$3(d,e,f){var x,w,v=null,u=J.jr(e.b,new B.b5b()),t=A.y(u,!0,u.$ti.i("A.E"))
 u=A.K(t).i("ai<1>")
-x=A.z(new A.ai(t,new B.b5c(),u),!0,u.i("A.E"))
+x=A.y(new A.ai(t,new B.b5c(),u),!0,u.i("A.E"))
 C.b.e7(x,new B.b5d())
 u=x.length
 w=this.a
@@ -139,7 +139,7 @@ $1(d){return(d.d==="TESIS"||C.b.eg(d.dx,new B.b5a()))&&d.e.bC(A.T(2024,1,1,0,0,0
 $S:50}
 B.b5a.prototype={
 $1(d){return d.z==="AVANCE"},
-$S:114}
+$S:94}
 B.b5c.prototype={
 $1(d){return!d.fy},
 $S:50}
@@ -158,10 +158,10 @@ return x==null?new A.am(0,0,w,w):x}},
 $S:1538}
 B.b5g.prototype={
 $1(d){return d.z==="AVANCE"},
-$S:114}
+$S:94}
 B.b5h.prototype={
 $1(d){return d.z==="AVANCE"&&d.y!==""},
-$S:114}
+$S:94}
 B.b58.prototype={
 $0(){var x=this.a.c
 x.toString
@@ -173,7 +173,7 @@ x(A.o7,[B.b5k,B.b5i,B.b5j,B.b5d,B.b5e,B.b59])
 x(A.lh,[B.b5f,B.b5b,B.b5a,B.b5c,B.b5g,B.b5h])
 w(B.b58,A.o6)})()
 A.tJ(b.typeUniverse,JSON.parse('{"WS":{"N":[],"c":[]},"Bb":{"N":[],"c":[]},"ajU":{"Q":["Bb"]},"ajT":{"Q":["WS"]}}'))
-var y={F:A.an("fo"),b:A.an("fq"),u:A.an("y<c>"),k:A.an("w<f6>"),y:A.an("V<d,@>"),l:A.an("c"),v:A.an("~")};(function constants(){D.aFr=new A.a5(C.mf,[C.Hr,C.Ht,C.Hu,C.Hv,C.Hw,C.Hx,C.Hy],A.an("a5<d,r>"))})();(function lazyInitializers(){var x=a.lazyFinal
-x($,"dq8","cZ0",()=>A.L8(D.aFr))})()};
+var y={F:A.an("fo"),b:A.an("fq"),u:A.an("z<c>"),k:A.an("w<f6>"),y:A.an("V<d,@>"),l:A.an("c"),v:A.an("~")};(function constants(){D.aFr=new A.a5(C.mf,[C.Hr,C.Ht,C.Hu,C.Hv,C.Hw,C.Hx,C.Hy],A.an("a5<d,r>"))})();(function lazyInitializers(){var x=a.lazyFinal
+x($,"dqa","cZ2",()=>A.L8(D.aFr))})()};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_2",e:"endPart",h:b})})($__dart_deferred_initializers__,"HHH1pxNCfAGRU3vaFXkjby+xt4Y=");
+a.eventLog.push({p:"main.dart.js_2",e:"endPart",h:b})})($__dart_deferred_initializers__,"fSb0LJvkwFVLTXfCyN44bfNq0e4=");
