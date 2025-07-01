@@ -2,21 +2,21 @@
 a[b][c]=a[b][c]||[]
 a[b][c].push({p:"main.dart.js_11",e:"beginPart"})})(self,"$__dart_deferred_initializers__","eventLog")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,A={
-dfy(){return new A.JO(null)},
-JO:function JO(d){this.a=d},
-c29:function c29(){}},C
+dfH(){return new A.JK(null)},
+JK:function JK(d){this.a=d},
+c2v:function c2v(){}},C
 B=c[0]
 A=a.updateHolder(c[3],A)
-C=c[13]
-A.JO.prototype={
-B(d){return new B.oz(B.vr("mainWachat_page",0),new A.c29(),null)}}
-var z=a.updateTypes(["HD()"])
-A.c29.prototype={
-$0(){B.vo("mainWachat_page")
-return C.d9W()},
+C=c[12]
+A.JK.prototype={
+B(d){return new B.qO(B.AA("mainWachat_page",0),new A.c2v(),null)}}
+var z=a.updateTypes(["HB()"])
+A.c2v.prototype={
+$0(){B.Av("mainWachat_page")
+return C.da4()},
 $S:z+0};(function inheritance(){var y=a.inherit
-y(A.JO,B.as)
-y(A.c29,B.o6)})()
-B.tI(b.typeUniverse,JSON.parse('{"JO":{"as":[],"c":[]}}'))};
+y(A.JK,B.at)
+y(A.c2v,B.pj)})()
+B.vp(b.typeUniverse,JSON.parse('{"JK":{"at":[],"d":[]}}'))};
 ((a,b)=>{a[b]=a.current
-a.eventLog.push({p:"main.dart.js_11",e:"endPart",h:b})})($__dart_deferred_initializers__,"wNS+p5sEWmKrL5oSdIHKal2TJ4c=");
+a.eventLog.push({p:"main.dart.js_11",e:"endPart",h:b})})($__dart_deferred_initializers__,"28WG8VGlqgifN6ThXFdqc/N2EvQ=");
